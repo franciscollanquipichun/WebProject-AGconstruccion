@@ -1,0 +1,139 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="es"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="es"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>AGconstruccion - Galeria</title>
+	<meta name="description" content="Página de contacto para AGconstrucciones, empresa especialista en soldadura y confección de carros, piesas agricolas, reparacion de maquinarias pesadas en general">
+	<meta name="author" content="Francisco Llanquipichun">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/svwp_style.css" type="text/css" media="screen" />
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+    <script src="js/libs/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<script src="js/jquery.slideviewerPro.1.5.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="header-container">
+		<header class="wrapper clearfix">
+			<br><div id="title"><h1>AG</h1><h2> construcción</h2></div>
+			<nav>
+				<ul>
+                	<li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos_servicios.html">Productos y Servicios</a></li>
+                    <li><a href="acerca_de_nosotros.html">Acerca de Nosotros</a></li>
+					<li><a href="contactenos.html">Contactenos</a></li>
+					<li><a href="galeria.html">Galeria de Imágenes</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div id="main-container">
+		<div id="main" class="wrapper clearfix">
+			
+			<article>
+            	<header>
+                	<h1>Galeria de Imágenes</h1>
+                    <p>Presentamos una compilación de imágenes que muestran nuestro trabajo de primera fuente. Escoja el proyecto que más le interese.</p>
+                </header>
+                <section>
+                      <div id="CollapsiblePanel1" class="spoiler">
+                      <div><h2 style="cursor: pointer;">Carros de Arrastre</h2></div>
+                            <ul>
+                            <li><a href="galeria-carro_de_arrastre.html"><h3>Carro de Arrastre simple</h3></a></li>
+                            <li><a href="galeria-carro_de_arrastre_negro_2_ruedas.html"><h3>Carro de Arrastre de 2 ruedas</h3></a></li>
+                            <li><a href="galeria-carro_de_arrastre_4_ruedas.html"><h3>Carro de Arrastre de 4 ruedas</h3></a></li>
+                            <li><a href="galeria-carro_para_moto.html"><h3>Carro para Moto</h3></a></li> 
+                            <li><a href="galeria-coloso_4_ruedas.html"><h3>Coloso de 4 ruedas</h3></a></li>                       
+                            </ul>
+                       </div>
+                      <div id="CollapsiblePanel2" class="spoiler">
+                      <div><h2 style="cursor: pointer;">Maquinaria Agricola</h2></div>
+	                      <ul class="spoiler">
+                          <li><a href="galeria-maquinaria_agricola1.html"><h3>Balde para tractor</h3></a></li>
+                          <li><a href="galeria-rodillo_compactador.html"><h3>Rodillo Compactador</h3></a></li>
+                          <li><a href="galeria-coloso_4_ruedas.html"><h3>Coloso de 4 ruedas</h3></a></li>
+                          <li><a href="galeria-tapas_graneleras.html"><h3>Tapas Graneleras para Carro</h3></a></li>
+    	                  </ul>
+                      </div>
+                      <div id="CollapsiblePanel3" class="spoiler">
+                      <div><h2 style="cursor: pointer;">Carrocerias</h2></div>
+                      	<ul class="spoiler">
+                        <li><a href="galeria-tapas_graneleras.html"><h3>Tapas Graneleras para Carro</h3></a></li>
+                        </ul>
+                      </div>
+                      <div id="CollapsiblePanel4" class="spoiler">
+                      <div><h2 style="cursor: pointer;">Inoxidable</h2></div>
+                      	<ul class="spoiler">
+                        <li><a href="galeria-tapas_graneleras.html"><h3>Tapas Graneleras para Carro</h3></a></li>
+                        </ul>
+                      </div>
+                    <br>
+                    <br>
+                    <br>
+                </section>
+			</article>
+			    <aside>
+                    <img src="images/soldador.JPG" alt="AGconstrucción"> 
+    			</aside> 
+		</div>
+	</div>
+
+	<div id="footer-container">
+		<footer class="wrapper">
+			<h4>AGconstrucción - Alberto Gomez Construcción - Los abetos #1183 Franke, Osorno - Fono: 98434233 - <a href="mailto:construccion.ag@hotmail.com">construccion.ag@hotmail.com</a></h4>
+		</footer>
+	</div>
+
+<script type="text/javascript">
+var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1", {contentIsOpen:false});
+var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel2", {contentIsOpen:false});
+var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel3", {contentIsOpen:false});
+var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel4", {contentIsOpen:false});
+</script>
+
+<!--Funcion galeria-->
+<script>    
+$(window).bind("load", function() {
+	$("div#my-folio-of-works").slideViewerPro({
+		thumbs: 6, 
+		autoslide: true, 
+		asTimer: 3500, 
+		typo: true,
+		galBorderWidth: 0,
+		thumbsBorderOpacity: 0, 
+		buttonsTextColor: "#707070",
+		buttonsWidth: 40,
+		thumbsActiveBorderOpacity: 0.8,
+		thumbsActiveBorderColor: "aqua",
+		shuffle: true
+	});
+});</script>
+<script>
+$(window).bind("load", function() {
+	$("div#basic").slideViewerPro();
+});
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script src="js/script.js"></script>
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+<![endif]-->
+
+</body>
+</html>
