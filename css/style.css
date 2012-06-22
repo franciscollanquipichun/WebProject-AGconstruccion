@@ -222,6 +222,7 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
 #indexSection{
 	width:800px;
+	height:300px;
 	padding: 10px 10px;
 	}
 #indexItem{
@@ -386,7 +387,8 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
    =================== */
 
 #header-container{ border-bottom: 10px solid #006; background:#06F;}
-#footer-container{ border-top:    10px solid #006; background:#06F;}
+#footer-container{ border-top:    10px solid #006; background:#06F; text-align:center;}
+#footer-container p{color:#006; font-size:14px;}
 #main aside      { border-top:    10px solid #006; background:white;}
 
 #title{
