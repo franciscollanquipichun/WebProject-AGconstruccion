@@ -280,7 +280,6 @@ This only matters if JS is OFF, otherwise JS sets this. */
 	position: absolute;
 	top: 20px;
 	left: 400px;
-	background-image: url(images/index/herramienta-maquinaria.jpg);
 }
 
 #slider-stopper{
@@ -358,6 +357,8 @@ background: #fff  ;
 color: #000  ;
 border: 5px solid #dedede  ;
 }
+
+img.750px{width: 750px; height: 450px;}
 
 /* =============================================================================
    Primary styles
