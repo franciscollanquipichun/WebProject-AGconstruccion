@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/libs/modernizr-2.0.6.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script src="guardarmensaje.php" ></script>
 </head>
 <body>
 	<div id="header-container"><!-- contenedor de la cabecera -->
@@ -36,75 +35,24 @@
 			<article>
 				<header>
 					<h1>Contactenos</h1>	
-                    <p>Estamos dispuestos a contestar cualquier duda que tenga sobre su futuro proyecto, y como lo ayudaremos a llevarlo a cabo, estamos a su servicio.</p>				
+                    <p>Estamos dispuestos a contestar cualquier duda que tenga sobre su futuro proyecto, y como lo ayudaremos a llevarlo a cabo, estamos a su servicio.</p>
 				</header>
-                
-			  <section>
-				  <h2>Formulario de Contacto</h2>                  
-					<form id="formulario" name="formularioContacto" method="post" action="guardarmensaje.php" >
-						<h3>Datos personales:</h3>
-                        <fieldset>
-                        	<ul>
-								<li>
-                                	<label for="nombre">Nombre</label>
-                                	<input type="text" name="nombre" id="nombre" placeholder="Su Nombre" maxlength="25" autofocus required/>
-                                </li>
-                            	<li>
-                                	<label for="nombre">E-mail</label>
-                                    <input type="email" name="email" id="email" placeholder="Su Correo Electronico" maxlength="50" required/>
-                                </li>
-                            </ul>
-                            <h3>Mensaje:</h3>
-                            <ul>	
-                                <li>
-                                	<label for="nombre">Asunto</label>
-                                	<input type="text" name="asunto" id="asunto" maxlength="25" required/>
-                                </li>
-                            	<li>
-                                	<label for="nombre">Mensaje</label>
-                                	<textarea name="mensaje" cols="50" rows="5" placeholder="Escriba aquí su Mensaje" onKeyUp="return maximaLongitud(this,250)" required></textarea>
-                                </li>
-                            	<li>
-                            		<small>Maximo caracteres: 250</small>
-                                </li>
-                            	<li>
-                                	<input type="submit" name="enviar" id="enviar" value="Enviar">
-                                    <input type="reset" name="limpiar" id="limpiar" value="Limpiar">
-                                </li>
-                            </ul>
-                    	</fieldset>
-					</form>
-			  </section>
-              
-              <section>
-              	<div id="CollapsiblePanel1" class="spoiler">
-                  <div><h3 style="cursor: pointer;">Sobre este Formulario</h3></div>
-                    <div ><p>La información que nos proporcione en este formulario se enviara directamente como correo electrónico a <a href="mailto:construccion.ag@hotmail.com">construccion.ag@hotmail.com</a> y además se guardara en nuestra Base de Datos, solo con el fin de mantener un registro de respaldo.</p></div>
-                </div>
-             </section>
-             
-             
-              <section>
-              	<div id="CollapsiblePanel2" class="spoiler">
-                    <div><h3 style="cursor: pointer;">Ayuda de Formulario</h3></div>
-                        <div ><p>Todos los campos son obligatorios. Acontinuación la descripción de cada campo:</p>
-                        <ul>
-                            <li>Nombre: Su nombre como persona natural o como organización. máximo 25 caracteres alfanuméricos.</li>
-                            <li>E-mail: Su correo electronico de contacto. máximo 50 caracteres. Ej: micuenta@hotmail.com</li>
-                            <li>Asunto: máximo 25 caracteres alfanuméricos.</li>
-                            <li>Mensaje: máximo 250 caracteres alfanuméricos.</li>
-                        </ul></div>
-                </div>  
-              </section>              
+                <section id="tarjeta-contacto">
+                    <ul type="none">
+                        <li><h2>Alberto Gómez Gallardo</h2></li>
+                        <li><p>construccion.ag@gmail.com</p></li>
+                        <li><p>Celular: +569 98434233</p></li>
+                        <li><p>Ruta 215 Cañal bajo lote 3A, Osorno</p></li>
+                    </ul>
+                </section>
+                <section id="mapa">
+                    <iframe width="585" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.cl/maps?t=h&amp;dg=opt&amp;ie=UTF8&amp;ll=-40.598639,-73.062086&amp;spn=0.026068,0.051498&amp;z=14&amp;output=embed"></iframe><br />
+                    <small><a href="https://www.google.cl/maps?t=h&amp;dg=opt&amp;ie=UTF8&amp;ll=-40.598639,-73.062086&amp;spn=0.026068,0.051498&amp;z=14&amp;source=embed">Ver mapa más grande</a></small>
+                </section>
 			</article>
 			
 			<aside>
             	<img src="images/index/AGconstruccion-logo.png" width="300" height="150" alt="AGconstrucción">
-				<h3 style="text-align:center;">Información de Contacto</h3>
-				<p style="text-align:center;">Alberto Gómez Gallardo<br>
-                construccion.ag@hotmail.com<br>
-                Celular: 98434233<br>
-                Osorno</p>
 			</aside>
 
 		</div>
@@ -116,13 +64,6 @@
              <b>Dirección:</b> Los abetos #1183 Franke, Osorno  <b>Fono:</b> 98434233  <b>Email:</b> construccion.ag@hotmail.com</p>
         </footer>
     </div>
-
-<!-- variables del Spoiler-->
-<script type="text/javascript">
-var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1", {contentIsOpen:false});
-var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel2", {contentIsOpen:false});
-</script>
-
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
