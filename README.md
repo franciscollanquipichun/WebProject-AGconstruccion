@@ -1,6 +1,6 @@
-WebProject-AGconstruccion
+Sitio web AGconstruccion
 =========================
 
-Proyecto de pagina web para empresa AGconstruccion.
+Proyecto de sitio web comercial para empresa AGconstrucción.
 
-www.agconstruccion.cl
+2013.
